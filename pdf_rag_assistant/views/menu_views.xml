@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="menu_pdf_rag_main" 
+              name="PDF RAG Assistant" 
+              sequence="100"/>
+
+    <!-- PDF Documents Menu -->
+    <menuitem id="menu_pdf_documents" 
+              name="PDF Documents" 
+              parent="menu_pdf_rag_main" 
+              action="action_pdf_document" 
+              sequence="10"/>
+
+    <!-- Q&A Sessions Menu -->
+    <menuitem id="menu_qa_sessions" 
+              name="QA Sessions" 
+              parent="menu_pdf_rag_main" 
+              action="action_qa_session" 
+              sequence="20"/>
+</odoo>

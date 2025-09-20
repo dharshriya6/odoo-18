@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pdf_document_user,pdf.document.user,model_pdf_document,base.group_user,1,1,1,1
+access_qa_session_user,qa.session.user,model_qa_session,base.group_user,1,1,1,1
+access_qa_answer_wizard_user,qa.answer.wizard.user,model_qa_answer_wizard,base.group_user,1,1,1,1
+
