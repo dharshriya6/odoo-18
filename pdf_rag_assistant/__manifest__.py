@@ -68,8 +68,6 @@ Get started in minutes - just upload your PDFs and start asking questions!
     'installable': True,
     'auto_install': False,
     'application': True,
-    'price': 99.00,
-    'currency': 'USD',
     'support': 'dharshriya6@gmail.com',
     'maintainers': ['priyadharshini'],
 }
