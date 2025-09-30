@@ -1,13 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PDF RAG Assistant</title>
+    <meta charset="UTF-8">
+    <title>PDF RAG Assistant - AI Q&amp;A for Documents</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; margin-top: 2em; }
+        ul { margin-left: 1.5em; }
+        img.screenshot { max-width: 400px; margin: 1em 1em 1em 0; border: 1px solid #ccc; }
+        .badge { vertical-align: middle; }
+        .section { margin-bottom: 2em; }
+    </style>
 </head>
 <body>
     <h1>PDF RAG Assistant - AI Q&amp;A for Documents</h1>
-    <p>Transform your PDF documents into intelligent AI assistants using advanced RAG technology!</p>
-    <img src="img1.png" alt="Main Dashboard" width="400"/>
-    <img src="img2.png" alt="PDF Upload" width="400"/>
-    <img src="img3.png" alt="Q&amp;A Example" width="400"/>
+    <div class="section">
+        <img class="badge" src="https://img.shields.io/badge/licence-LGPL--3-blue.svg" alt="License: LGPL-3">
+        <p>
+            Transform your PDF documents into intelligent AI assistants using advanced RAG technology!
+        </p>
+    </div>
+
+    <h2>Screenshots</h2>
+    <div class="section">
+        <img class="screenshot" src="img1.png" alt="Main Dashboard">
+        <img class="screenshot" src="img2.png" alt="PDF Upload">
+        <img class="screenshot" src="img3.png" alt="Q&amp;A Example">
+    </div>
+
+    <h2>Features</h2>
+    <ul>
+        <li>🤖 <strong>AI-Powered Q&amp;A</strong>: Natural language questions with intelligent answers</li>
+        <li>📄 <strong>Smart PDF Processing</strong>: Automatic text extraction and semantic indexing</li>
+        <li>🔍 <strong>Semantic Search</strong>: Advanced embedding models for precise information retrieval</li>
+        <li>📊 <strong>Session Tracking</strong>: Complete history of questions and answers</li>
+        <li>⚡ <strong>Batch Processing</strong>: Handle multiple PDFs simultaneously</li>
+        <li>🔒 <strong>Secure</strong>: Local processing with encrypted API key storage</li>
+        <li>🎯 <strong>Context-Aware</strong>: Answers include document sections for verification</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <ol>
+        <li>Install Python dependencies:<br>
+            <code>pip install PyPDF2 sentence-transformers numpy groq python-dotenv scikit-learn</code>
+        </li>
+        <li>Install the module through Odoo Apps or manually</li>
+        <li>Configure your Groq API key in Settings → General Settings → PDF RAG Assistant</li>
+        <li>Start uploading PDFs and asking questions!</li>
+    </ol>
+
+    <h2>Configuration</h2>
+    <ol>
+        <li>Go to <strong>Settings → General Settings</strong></li>
+        <li>Find the <strong>PDF RAG Assistant</strong> section</li>
+        <li>Enter your Groq API key (get one free at groq.com)</li>
+        <li>Configure processing settings (optional)</li>
+    </ol>
+
+    <h2>Usage</h2>
+    <ol>
+        <li>Navigate to <strong>PDF RAG Assistant → PDF Documents</strong></li>
+        <li>Click <strong>Create</strong> and upload your PDF</li>
+        <li>Wait for processing to complete</li>
+        <li>Click <strong>Ask Question</strong> and enter your query</li>
+        <li>Get intelligent, context-aware answers instantly!</li>
+    </ol>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>Odoo 18.0+</li>
+        <li>Python 3.10+</li>
+        <li>Internet connection for AI processing</li>
+        <li>Groq API key (free tier available)</li>
+    </ul>
+
+    <h2>Support</h2>
+    <ul>
+        <li>Documentation: Available in the app</li>
+        <li>Support: dharshriya6@gmail.com</li>
+        <li>Issues: Report via Odoo Apps or GitHub</li>
+    </ul>
+
+    <h2>License</h2>
+    <p>This module is licensed under LGPL-3.</p>
+
+    <h2>Author</h2>
+    <ul>
+        <li>Priyadharshini &lt;dharshriya6@gmail.com&gt;</li>
+    </ul>
+
+    <h2>Contributors</h2>
+    <ul>
+        <li>Priyadharshini &lt;dharshriya6@gmail.com&gt;</li>
+    </ul>
 </body>
 </html>
