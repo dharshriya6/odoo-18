@@ -8,9 +8,9 @@ PDF RAG Assistant - AI Q&A for Documents
 Transform your PDF documents into intelligent AI assistants using advanced RAG technology!
 ## Screenshots
 
-![Main Dashboard](static/description/main_dashboard.png)
-![PDF Upload](static/description/pdf_upload.png)
-![Q&A Example](static/description/qa_example.png)
+![Main Dashboard](static/description/img1.png)
+![PDF Upload](static/description/img2.png)
+![Q&A Example](static/description/img3.png)
 
 Features
 --------
